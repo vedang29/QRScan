@@ -9,7 +9,7 @@ function App() {
   const [qrInput, setQrInput] = useState('');
 
   useEffect(() => {
-    if (scanResult) return; // Prevent re-initialization if scan is already successful
+    if (scanResult) return; 
 
     const success = (result) => {
       scanner.clear();
